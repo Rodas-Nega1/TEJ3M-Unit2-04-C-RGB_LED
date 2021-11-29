@@ -16,30 +16,37 @@ void setup()
 
 void loop()
 {
+  // red
   digitalWrite(13, HIGH);
   digitalWrite(12, LOW);
   digitalWrite(11, LOW);
   delay(1000);
-  digitalWrite(13, LOW);
-  digitalWrite(12, HIGH);
-  digitalWrite(11, LOW);
-  delay(1000);
+  // green
   digitalWrite(13, LOW);
   digitalWrite(12, LOW);
   digitalWrite(11, HIGH);
   delay(1000);
+  // blue
+  digitalWrite(13, LOW);
+  digitalWrite(12, HIGH);
+  digitalWrite(11, LOW);
+  delay(1000);
+  // red-green
   digitalWrite(13, HIGH);
   digitalWrite(12, LOW);
   digitalWrite(11, HIGH);
   delay(1000);
+  // green-blue
   digitalWrite(13, LOW);
   digitalWrite(12, HIGH);
   digitalWrite(11, HIGH);
   delay(1000);
+  // blue-red
   digitalWrite(13, HIGH);
   digitalWrite(12, HIGH);
   digitalWrite(11, LOW);
   delay(1000);
+  // white
   digitalWrite(13, HIGH);
   digitalWrite(12, HIGH);
   digitalWrite(11, HIGH);
